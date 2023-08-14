@@ -7,21 +7,61 @@
 }
 
 .p {
-    font-size: 50px;
+    font-size: 70px;
 }
 
-.click {
+.p:hover {
+    background-color: red;
+    color: black;
+}
+
+.add {
+    border: none;
+    padding: 10px 30px;
+    box-shadow: #fff;
     background-color: black;
     color: #fff;
-    font-size: 48px;
+    font-size: 30px;
 }
 
-.card {
-
-    width: 50%;
-    height: 100%;
+.add:hover {
+    background-color: darkgreen;
 }
 
-.min-100vh {
-    min-height: 100vh;
+
+.mycard {
+    width: 500%;
+    height: 500%;
+
+    border-radius: 20px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+
+}
+
+.multiply {
+
+    border: none;
+    padding: 10px;
+    box-shadow: red;
+    background-color: skyblue;
+    color: #fff;
+    font-size: 30px;
+}
+
+.multiply:hover {
+    background-color: burlywood;
+    color: #fff;
+}
+
+.sub:hover {
+    background-color: darkcyan;
+}
+
+.sub {
+    border: none;
+    padding: 10px 0px;
+    box-shadow: #fff;
+    background-color: black;
+    color: #fff;
+    font-size: 30px;
 }
